@@ -25,8 +25,8 @@ Please ensure you setup your build environment appropriately, as per the guide. 
 
 This project has a bunch of git submodules.  You will need to update them regularly.
 
-    git submodule sync
-    git submodule update --init
+    In teh top level folder of the repostory execute:
+    make fetch-submodules
 
 ### Required Python Packages
 
